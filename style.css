@@ -1,0 +1,39 @@
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#183d2b;background:#fff}
+a{text-decoration:none;color:inherit}
+.top{background:#fff;padding:18px 5%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.menu{font-size:42px;line-height:1;color:#087044;font-weight:700}
+.brand{height:90px;max-width:330px;object-fit:contain}
+.roots{height:120px;width:120px;object-fit:contain;border-radius:50%}
+.sustain{background:linear-gradient(90deg,#075f3b,#0d7a43 55%,#ff3b08);padding:10px 12%;color:#fff;text-align:left}
+.sustain h2{margin:0;text-align:center;font-size:25px}
+.sustain .bar{background:#fff;color:#155c3a;border-radius:12px;padding:9px 20px;margin-top:8px;font-size:22px}
+.hero{background:linear-gradient(90deg,rgba(0,55,35,.88),rgba(0,55,35,.15)),url("imagenes/foto-equipo.jpg") center/cover;min-height:570px;display:flex;align-items:center}
+.hero-copy{width:45%;padding:45px;color:#fff}
+.hero h1{font-size:58px;margin:0 0 8px;font-weight:900}
+.hero h2{font-size:34px;margin:0 0 22px}
+.hero p{font-size:24px;line-height:1.45}
+.ctas{display:flex;justify-content:center;gap:25px;padding:28px;background:linear-gradient(90deg,#399d36,#ffc900,#ff4b08)}
+.btn{background:#fff;padding:20px 55px;border-radius:16px;font-size:25px;font-weight:800;text-align:center;box-shadow:0 3px 10px #0002}
+.btn.orange{color:#ef5a16}.btn.green{color:#087044}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:35px 5%;background:#fff}
+.card{background:#fffdf3;border-radius:18px;padding:35px;box-shadow:0 2px 10px #0001}
+.card h2{text-align:center;font-size:27px}
+.help-item{margin:25px 0}.help-item h3{color:#087044;margin-bottom:5px}.help-item p,.about p{font-size:18px;line-height:1.55}
+.about{display:flex;gap:25px;align-items:center}.about img{width:28%;max-width:180px}
+.history-link{display:inline-block;margin-top:18px;color:#087044;font-weight:800;font-size:19px}
+footer{background:linear-gradient(90deg,#087044,#a3bd08,#ff3b08);color:#fff;padding:22px 5%;display:flex;justify-content:space-between;align-items:center}
+footer h3{margin:0 0 8px}.contact p{margin:5px 0;font-size:17px}.footer-brand{font-size:32px;font-weight:800}
+.page{min-height:100vh}.text-page{max-width:850px;margin:0 auto;padding:55px 25px}.text-page h1{color:#087044;font-size:34px;text-align:center;margin-bottom:35px}.text-page p{font-size:22px;line-height:1.7;text-align:center;white-space:pre-line}.back{display:inline-block;margin-bottom:30px;color:#087044;font-weight:700}
+@media(max-width:700px){
+ .top{padding:12px 4%;}.menu{font-size:34px}.brand{height:65px;max-width:230px}.roots{height:80px;width:80px}
+ .sustain{padding:8px 5%}.sustain h2{font-size:19px}.sustain .bar{font-size:17px}
+ .hero{min-height:520px}.hero-copy{width:100%;padding:30px 22px;background:linear-gradient(90deg,rgba(0,55,35,.85),rgba(0,55,35,.35))}
+ .hero h1{font-size:44px}.hero h2{font-size:27px}.hero p{font-size:20px}
+ .ctas{gap:10px;padding:18px 10px}.btn{padding:17px 20px;font-size:19px;flex:1}
+ .cards{grid-template-columns:1fr;padding:20px 12px}.card{padding:24px}.about{display:block}.about img{width:100%;max-width:160px;display:block;margin:0 auto 15px}
+ footer{display:block;text-align:center}.footer-brand{margin-top:20px}
+ .text-page h1{font-size:28px}.text-page p{font-size:20px}
+}
