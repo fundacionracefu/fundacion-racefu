@@ -31,7 +31,7 @@ footer h3{margin:0 0 8px}.contact p{margin:5px 0;font-size:17px}.footer-brand{fo
 @media(max-width:700px){
  .top{padding:12px 4%;}.menu{font-size:34px}.brand{height:65px;max-width:230px}.roots{height:80px;width:80px}
  .sustain{padding:8px 5%}.sustain h2{font-size:19px}.sustain .bar{font-size:17px}
- .hero{min-height:380px}.hero-copy{width:100%;padding:30px 22px;background:linear-gradient(90deg,rgba(0,55,35,.85),rgba(0,55,35,.35))}
+ .hero{min-height:600px}.hero-copy{width:100%;padding:30px 22px;background:linear-gradient(90deg,rgba(0,55,35,.85),rgba(0,55,35,.35))}
  .hero h1{font-size:44px}.hero h2{font-size:27px}.hero p{font-size:20px}
  .ctas{gap:10px;padding:18px 10px}.btn{padding:17px 20px;font-size:19px;flex:1}
  .cards{grid-template-columns:1fr;padding:20px 12px}.card{padding:24px}.about{display:block}.about img{width:100%;max-width:160px;display:block;margin:0 auto 15px}
