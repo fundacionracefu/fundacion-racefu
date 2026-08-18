@@ -27,7 +27,14 @@ a{text-decoration:none;color:inherit}
 .history-link{display:inline-block;margin-top:18px;color:#087044;font-weight:800;font-size:19px}
 footer{background:linear-gradient(90deg,#087044,#a3bd08,#ff3b08);color:#fff;padding:22px 5%;display:flex;justify-content:space-between;align-items:center}
 footer h3{margin:0 0 8px}.contact p{margin:5px 0;font-size:17px}.footer-brand{font-size:32px;font-weight:800}
-.page{min-height:100vh}.text-page{max-width:850px;margin:0 auto;padding:55px 25px}.text-page h1{color:#087044;font-size:34px;text-align:center;margin-bottom:35px}.text-page p{font-size:22px;line-height:1.7;text-align:center;white-space:pre-line}.back{display:inline-block;margin-bottom:30px;color:#087044;font-weight:700}
+.page{min-height:100vh}.text-page{
+  max-width:850px;
+  margin:0 auto;
+  padding:55px 25px;
+  background:linear-gradient(135deg,#a3bd08,#ff9d00,#087044);
+  color:#fff;
+  border-radius:20px;
+}..text-page h1{color:#fff;font-size:34px;text-align:center;margin-bottom:35px}.text-page p{font-size:22px;line-height:1.7;text-align:center;white-space:pre-line}.back{display:inline-block;margin-bottom:30px;color:#087044;font-weight:700}
 @media(max-width:700px){
  .top{padding:12px 4%;}.menu{font-size:34px}.brand{height:65px;max-width:230px}.roots{height:80px;width:80px}
  .sustain{padding:8px 5%}.sustain h2{font-size:19px}.sustain .bar{font-size:17px}
